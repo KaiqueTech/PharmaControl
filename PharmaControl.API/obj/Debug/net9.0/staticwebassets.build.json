@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "GNh/WrKgsfQTbkQ+01dQm/8zU+LNFe7NDefGf/FunAo=",
+  "Source": "PharmaControl.API",
+  "BasePath": "_content/PharmaControl.API",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}
