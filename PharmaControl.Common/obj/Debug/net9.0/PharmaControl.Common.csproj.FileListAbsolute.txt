@@ -1,0 +1,13 @@
+D:\Kaique\C#\Projetos\PharmaControl\Backend\PharmaControl.Common\bin\Debug\net9.0\PharmaControl.Common.deps.json
+D:\Kaique\C#\Projetos\PharmaControl\Backend\PharmaControl.Common\bin\Debug\net9.0\PharmaControl.Common.dll
+D:\Kaique\C#\Projetos\PharmaControl\Backend\PharmaControl.Common\bin\Debug\net9.0\PharmaControl.Common.pdb
+D:\Kaique\C#\Projetos\PharmaControl\Backend\PharmaControl.Common\obj\Debug\net9.0\PharmaControl.Common.GeneratedMSBuildEditorConfig.editorconfig
+D:\Kaique\C#\Projetos\PharmaControl\Backend\PharmaControl.Common\obj\Debug\net9.0\PharmaControl.Common.AssemblyInfoInputs.cache
+D:\Kaique\C#\Projetos\PharmaControl\Backend\PharmaControl.Common\obj\Debug\net9.0\PharmaControl.Common.AssemblyInfo.cs
+D:\Kaique\C#\Projetos\PharmaControl\Backend\PharmaControl.Common\obj\Debug\net9.0\PharmaControl.Common.csproj.CoreCompileInputs.cache
+D:\Kaique\C#\Projetos\PharmaControl\Backend\PharmaControl.Common\obj\Debug\net9.0\PharmaControl.Common.sourcelink.json
+D:\Kaique\C#\Projetos\PharmaControl\Backend\PharmaControl.Common\obj\Debug\net9.0\PharmaControl.Common.dll
+D:\Kaique\C#\Projetos\PharmaControl\Backend\PharmaControl.Common\obj\Debug\net9.0\refint\PharmaControl.Common.dll
+D:\Kaique\C#\Projetos\PharmaControl\Backend\PharmaControl.Common\obj\Debug\net9.0\PharmaControl.Common.pdb
+D:\Kaique\C#\Projetos\PharmaControl\Backend\PharmaControl.Common\obj\Debug\net9.0\ref\PharmaControl.Common.dll
+D:\Kaique\C#\Projetos\PharmaControl\Backend\PharmaControl.Common\obj\Debug\net9.0\PharmaControl.Common.csproj.AssemblyReference.cache

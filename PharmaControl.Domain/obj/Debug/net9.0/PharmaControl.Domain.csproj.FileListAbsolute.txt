@@ -1,0 +1,16 @@
+D:\Kaique\C#\Projetos\PharmaControl\Backend\PharmaControl.Domain\bin\Debug\net9.0\PharmaControl.Domain.deps.json
+D:\Kaique\C#\Projetos\PharmaControl\Backend\PharmaControl.Domain\bin\Debug\net9.0\PharmaControl.Domain.dll
+D:\Kaique\C#\Projetos\PharmaControl\Backend\PharmaControl.Domain\bin\Debug\net9.0\PharmaControl.Domain.pdb
+D:\Kaique\C#\Projetos\PharmaControl\Backend\PharmaControl.Domain\obj\Debug\net9.0\PharmaControl.Domain.GeneratedMSBuildEditorConfig.editorconfig
+D:\Kaique\C#\Projetos\PharmaControl\Backend\PharmaControl.Domain\obj\Debug\net9.0\PharmaControl.Domain.AssemblyInfoInputs.cache
+D:\Kaique\C#\Projetos\PharmaControl\Backend\PharmaControl.Domain\obj\Debug\net9.0\PharmaControl.Domain.AssemblyInfo.cs
+D:\Kaique\C#\Projetos\PharmaControl\Backend\PharmaControl.Domain\obj\Debug\net9.0\PharmaControl.Domain.csproj.CoreCompileInputs.cache
+D:\Kaique\C#\Projetos\PharmaControl\Backend\PharmaControl.Domain\obj\Debug\net9.0\PharmaControl.Domain.sourcelink.json
+D:\Kaique\C#\Projetos\PharmaControl\Backend\PharmaControl.Domain\obj\Debug\net9.0\PharmaControl.Domain.dll
+D:\Kaique\C#\Projetos\PharmaControl\Backend\PharmaControl.Domain\obj\Debug\net9.0\refint\PharmaControl.Domain.dll
+D:\Kaique\C#\Projetos\PharmaControl\Backend\PharmaControl.Domain\obj\Debug\net9.0\PharmaControl.Domain.pdb
+D:\Kaique\C#\Projetos\PharmaControl\Backend\PharmaControl.Domain\obj\Debug\net9.0\ref\PharmaControl.Domain.dll
+D:\Kaique\C#\Projetos\PharmaControl\Backend\PharmaControl.Domain\bin\Debug\net9.0\PharmaControl.Common.dll
+D:\Kaique\C#\Projetos\PharmaControl\Backend\PharmaControl.Domain\bin\Debug\net9.0\PharmaControl.Common.pdb
+D:\Kaique\C#\Projetos\PharmaControl\Backend\PharmaControl.Domain\obj\Debug\net9.0\PharmaControl.Domain.csproj.AssemblyReference.cache
+D:\Kaique\C#\Projetos\PharmaControl\Backend\PharmaControl.Domain\obj\Debug\net9.0\PharmaCo.66B18906.Up2Date
