@@ -3,6 +3,7 @@ using PharmaControl.Application.DTO.Employee;
 using PharmaControl.Application.DTO.Shared;
 using PharmaControl.Application.Interfaces;
 using PharmaControl.Application.Interfaces.Employee;
+using PharmaControl.Common.Enuns;
 using PharmaControl.Domain.Models;
 
 namespace PharmaControl.Application.Services.Employee;
@@ -155,10 +156,14 @@ public class EmployeeService : IEmployeeService
             if (existingEmployee == null)
                 return ResultDto<EmployeeResponseDto>.Fail("Employee not found.");
             
-            existingEmployee.SetIsActive(!existingEmployee.Status);
-            
-            await _employeeRepository.UpdateEmployeeAsync(id,existingEmployee);
-            
+            var newStatus = existingEmployee.Status == StatusEnum.Ativo
+                ? StatusEnum.Inativo
+                : StatusEnum.Ativo;
+
+            existingEmployee.SetIsActive(newStatus);
+
+            await _employeeRepository.UpdateEmployeeAsync(id, existingEmployee);
+
             var responseEmployee = _mapper.Map<EmployeeResponseDto>(existingEmployee);
 
             return ResultDto<EmployeeResponseDto>.Ok(responseEmployee, "Employee updated successfully");
@@ -168,4 +173,5 @@ public class EmployeeService : IEmployeeService
             return ResultDto<EmployeeResponseDto>.Fail($"Error updating employee: {e.Message}");
         }
     }
+
 }

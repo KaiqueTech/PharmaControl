@@ -11,5 +11,5 @@ public interface IEmployeeRepository
     Task<List<EmployeeModel>> GetByRoleAsync(string role);
     Task<IEnumerable<EmployeeModel>> GetAllEmployeesAsync();
     Task<EmployeeModel> UpdateEmployeeAsync(int id, EmployeeModel employee);
-    Task ToggleStatusAsync(int id, bool isActive);
+    Task ToggleStatusAsync(int id);
 }

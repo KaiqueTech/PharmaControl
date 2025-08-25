@@ -91,7 +91,9 @@ public class PharmaDbContext : DbContext
             entity.Property(e => e.Phone).HasMaxLength(20);
             entity.Property(e => e.Email).HasMaxLength(120);
 
-            entity.Property(e => e.Status).IsRequired().HasDefaultValue(true);
+            entity.Property(e => e.Status)
+                .IsRequired()
+                .HasConversion<int>();
             
             entity.Property(e => e.CreatedAt)
                 .HasColumnType("timestamp with time zone");

@@ -2,5 +2,5 @@
 
 public class EmployeeStatusDto
 {
-    public bool IsActive { get; set; }
+    public bool Status { get; set; }
 }

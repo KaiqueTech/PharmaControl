@@ -1,4 +1,5 @@
 ﻿using System.ComponentModel.DataAnnotations;
+using PharmaControl.Common.Enuns;
 
 namespace PharmaControl.Application.DTO.Employee;
 
@@ -15,6 +16,7 @@ public class EmployeeRequestDto
     public string CPF { get; set; } = null!;
 
     public string Role { get; set; } = default!;
+    public string Status { get; set; } = default!;
     [Phone]
     public string? Phone { get; set; }
     [EmailAddress]
