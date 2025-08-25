@@ -10,7 +10,7 @@ public class EmployeeResponseDto
     public DateTime HiringDate { get; set; }
     public string? Phone { get; set; }
     public string? Email { get; set; }
-    public EmployeeStatusDto Status { get; set; } = null!;
+    public string Status { get; set; } = default!;
     public DateTime CreatedAt { get; set; }
     public DateTime UpdatedAt { get; set; }
     
