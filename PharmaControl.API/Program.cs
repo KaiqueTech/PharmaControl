@@ -2,10 +2,13 @@ using Microsoft.EntityFrameworkCore;
 using PharmaControl.API.Configurations;
 using PharmaControl.Application.Interfaces;
 using PharmaControl.Application.Interfaces.Employee;
+using PharmaControl.Application.Interfaces.Supplier;
 using PharmaControl.Application.Services.Employee;
+using PharmaControl.Application.Services.Supplier;
 using PharmaControl.Domain.Models;
 using PharmaControl.Infrastructure.DataContext;
 using PharmaControl.Infrastructure.Repositories;
+using PharmaControl.Infrastructure.Repositories.Supplier;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -16,6 +19,8 @@ builder.Services.AddDbContext<PharmaDbContext>(options =>
 //DependencyInjections
 builder.Services.AddScoped<IEmployeeRepository, EmployeeRepository>();
 builder.Services.AddScoped<IEmployeeService, EmployeeService>();
+builder.Services.AddScoped<ISupplierRepository, SupplierRepository>();
+builder.Services.AddScoped<ISupplierService, SupplierService>();
 
 //Mapping
 builder.Services.AddAutoMapper(typeof(MappingProfileConfigurations));

@@ -180,7 +180,7 @@ namespace PharmaControl.Infrastructure.Migrations
                         .HasMaxLength(250)
                         .HasColumnType("character varying(250)");
 
-                    b.Property<string>("CNPJ")
+                    b.Property<string>("Cnpj")
                         .IsRequired()
                         .HasMaxLength(14)
                         .HasColumnType("character varying(14)");
@@ -209,6 +209,9 @@ namespace PharmaControl.Infrastructure.Migrations
                     b.Property<string>("StateRegistration")
                         .HasMaxLength(50)
                         .HasColumnType("character varying(50)");
+
+                    b.Property<int>("Status")
+                        .HasColumnType("integer");
 
                     b.Property<DateTime>("UpdatedAt")
                         .HasColumnType("timestamp with time zone");

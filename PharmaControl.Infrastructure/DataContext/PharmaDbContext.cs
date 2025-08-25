@@ -54,7 +54,7 @@ public class PharmaDbContext : DbContext
                 .IsRequired()
                 .HasMaxLength(200);
 
-            entity.Property(s => s.CNPJ)
+            entity.Property(s => s.Cnpj)
                 .IsRequired()
                 .HasMaxLength(14);
 
@@ -62,6 +62,10 @@ public class PharmaDbContext : DbContext
             entity.Property(s => s.Address).HasMaxLength(250);
             entity.Property(s => s.Phone).HasMaxLength(20);
             entity.Property(s => s.Email).HasMaxLength(120);
+            
+            entity.Property(s => s.Status)
+                .IsRequired()
+                .HasConversion<int>();
         });
 
         modelBuilder.Entity<EmployeeModel>(entity =>

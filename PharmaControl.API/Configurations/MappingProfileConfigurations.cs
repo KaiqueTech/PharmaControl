@@ -1,5 +1,6 @@
 ﻿using AutoMapper;
 using PharmaControl.Application.DTO.Employee;
+using PharmaControl.Application.DTO.Supplier;
 using PharmaControl.Common.Enuns;
 using PharmaControl.Domain.Models;
 
@@ -10,9 +11,15 @@ public class MappingProfileConfigurations : Profile
     public MappingProfileConfigurations()
     {
         CreateMap<EmployeeRequestDto, EmployeeModel>()
-            .ForMember(dest => dest.Role, opt => opt.MapFrom(src => ParseRole(src.Role)));
+            .ForMember(dest => dest.Role, opt
+                => opt.MapFrom(src => ParseRole(src.Role)));
 
         CreateMap<EmployeeModel, EmployeeResponseDto>();
+
+        
+        CreateMap<SupplierRequestDto, SupplierModel>();
+
+        CreateMap<SupplierModel, SupplierResponseDto>();
     }
     
     private static RoleEnum ParseRole(string role)

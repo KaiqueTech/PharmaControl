@@ -1,4 +1,6 @@
-﻿namespace PharmaControl.Domain.Models
+﻿using PharmaControl.Common.Enuns;
+
+namespace PharmaControl.Domain.Models
 {
     public class SupplierModel
     {
@@ -6,11 +8,12 @@
         
         public string SocialReason { get; private set; } = null!;
         public string FantasyName { get; private set; } = null!;
-        public string CNPJ { get; private set; } = null!;
+        public string Cnpj { get; private set; } = null!;
         public string? StateRegistration { get; private set; }
         public string? Address { get; private set; }
         public string? Phone { get; private set; }
         public string? Email { get; private set; }
+        public StatusEnum Status { get; private set; } = StatusEnum.Ativo;
         public DateTime CreatedAt { get; private set; }
         public DateTime UpdatedAt { get; private set; }
         
@@ -26,7 +29,7 @@
 
             SocialReason = socialReason;
             FantasyName = fantasyName;
-            CNPJ = cnpj;
+            Cnpj = cnpj;
         }
         
         public void UpdateContact(string? phone, string? email)
@@ -43,6 +46,13 @@
         public void UpdateStateRegistration(string? stateRegistration)
         {
             StateRegistration = stateRegistration;
+        }
+        
+        
+        public void SetIsActive(StatusEnum isActive)
+        {
+            Status = isActive;
+            UpdatedAt = DateTime.UtcNow;
         }
         
         public void SetUpdatedAt(DateTime updatedAt) => UpdatedAt = updatedAt;

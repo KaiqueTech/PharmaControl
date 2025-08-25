@@ -1,5 +1,6 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using PharmaControl.Application.Interfaces;
+using PharmaControl.Application.Interfaces.Employee;
 using PharmaControl.Common.Enuns;
 using PharmaControl.Domain.Models;
 using PharmaControl.Infrastructure.DataContext;

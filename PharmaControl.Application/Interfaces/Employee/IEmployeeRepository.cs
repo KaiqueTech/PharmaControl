@@ -1,7 +1,6 @@
-﻿using PharmaControl.Application.DTO.Shared;
-using PharmaControl.Domain.Models;
+﻿using PharmaControl.Domain.Models;
 
-namespace PharmaControl.Application.Interfaces;
+namespace PharmaControl.Application.Interfaces.Employee;
 
 public interface IEmployeeRepository
 {
