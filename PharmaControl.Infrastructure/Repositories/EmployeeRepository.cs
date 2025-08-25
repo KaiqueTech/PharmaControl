@@ -93,12 +93,18 @@ public class EmployeeRepository : IEmployeeRepository
 
     public async Task ToggleStatusAsync(int id, bool isActive)
     {
-        var existingEmployee = await _context.Employees.FirstOrDefaultAsync(e => e.IdEmployee == id);
+        var existingEmployee = await _context.Employees
+            .FirstOrDefaultAsync(e => e.IdEmployee == id);
 
         if (existingEmployee is null)
             throw new KeyNotFoundException($"Employee with ID {id} not found.");
 
-        existingEmployee.SetIsActive(isActive);
+        existingEmployee.SetIsActive(
+            existingEmployee.Status == StatusEnum.Ativo 
+                ? StatusEnum.Inativo 
+                : StatusEnum.Ativo
+        );
+
         await _context.SaveChangesAsync();
     }
 }
